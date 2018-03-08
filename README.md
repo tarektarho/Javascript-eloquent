@@ -18,7 +18,7 @@ Write a loop that makes seven calls to console.log to output the following trian
 #### Solution
 
 ```javascript
-var content = '';
+let content = '';
 
 for (var i = 0; i < 7; i++) {
     content = content + '#';
@@ -71,12 +71,12 @@ When you have a program that generates this pattern, define a variable `size = 8
 #### Solution
 
 ```javascript
-var size = 8;
-var block = '#';
-var space = ' ';
+let size = 8;
+let block = '#';
+let space = ' ';
 
 for (var i = 1; i <= size; i++) {
-  var line = '';
+  let line = '';
 
   for (var y = 1; y <= size; y++){
     if (i%2) {
